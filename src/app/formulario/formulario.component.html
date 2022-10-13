@@ -39,9 +39,15 @@
       Sólo se aceptan número enteros
     </div>
   </div>
+  <div>
+    <button type="submit" id="btnEnviar1" [disabled]="frmFormulario.invalid">Enviar1</button>
+  </div>
 </form>
 
 <div>
-  <button form="frmFor" type="submit" id="btnEnviar" [disabled]="frmFormulario.invalid">Enviar</button>
+  <button form="frmFor" type="submit" id="btnEnviar2" [disabled]="frmFormulario.invalid">Enviar2</button>
 </div>
+
+<hr>
+
 {{ hola }}
